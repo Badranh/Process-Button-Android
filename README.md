@@ -34,7 +34,7 @@ allprojects {
 # JAVA: 
 ```
 ProcessButton btnFail;
-boolean a = false;
+boolean a = true;
 btnFail = findViewById(R.id.failure);
    btnFail.setProgressActivated(false);
    btnFail.setIntepolator(ProcessButton.interpolators.INTERPOLATOR_LINEAR);
