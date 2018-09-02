@@ -4,7 +4,7 @@ Material Processing Button Library For Android
 # Example
 Colors,Button Text can be modified as you want
 
-![Screenshot](https://i.imgur.com/1n71qKA.gif)
+![Screenshot](https://i.imgur.com/sv3zkeF.gif)
 
 # How to add to your app 
 
