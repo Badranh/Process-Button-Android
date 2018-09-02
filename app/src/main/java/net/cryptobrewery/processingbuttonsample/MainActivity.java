@@ -23,6 +23,7 @@ boolean a= true,b=true,c=true;
         btnFail.setBtnText("Click Me");
         btnFail.setBtnTextColor("#FFFFFF");
         btnFail.setFailureTxt("Failed!");
+        btnFail.playReversed(true);
         btnFail.setIndeterminate(true);
         btnFail.setOnBtnClickListener(new ProcessButton.onClickListener() {
             @Override
@@ -64,7 +65,7 @@ boolean a= true,b=true,c=true;
         btnSuccess.setSuccessTxt("Success!");
         btnSuccess.setIntepolator(ProcessButton.interpolators.INTERPOLATOR_ACCELERATE);
         btnSuccess.setIndeterminate(true);
-
+        btnSuccess.playMirrorMode(true);
         btnSuccess.setOnBtnClickListener(new ProcessButton.onClickListener() {
             @Override
             public void onClick() {

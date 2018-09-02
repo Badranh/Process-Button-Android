@@ -160,10 +160,6 @@ public class ProcessButton extends RelativeLayout {
        }
    }
 
-   public void setOnProgressFinishListener(SmoothProgressDrawable.Callbacks callbacks){
-       mSmoothProgressBar.setSmoothProgressDrawableCallbacks(callbacks);
-
-   }
 
    public void setOnStartEndAnimationListener(onAnimationPhases mOnAnimationPhases){
        this.mOnAnimationPhases = mOnAnimationPhases;
