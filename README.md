@@ -99,4 +99,8 @@ btnFail = findViewById(R.id.failure);
 # LICENCE:
 MIT
 
+# Other Libraries: 
+
+https://github.com/castorflex/SmoothProgressBar
+
 
